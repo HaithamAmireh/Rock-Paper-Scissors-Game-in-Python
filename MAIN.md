@@ -7,7 +7,7 @@
 	def player_input():
     selection = ' '
     while selection not in game_list:
-    selection = input('Please Enter type. -Paper-Rock-Scissors ').capitalize()
+    selection = input('Please Enter Choice. -Paper-Rock-Scissors ').capitalize()
     return selection
     
 
